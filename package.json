@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
